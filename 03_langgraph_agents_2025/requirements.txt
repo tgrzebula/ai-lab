@@ -1,0 +1,6 @@
+python-dotenv>=1.1.0
+langchain-openai>=0.3.0
+langchain-community>=0.3.0
+langgraph>=0.2.0
+numexpr>=2.11.0
+wikipedia>=1.4.0 

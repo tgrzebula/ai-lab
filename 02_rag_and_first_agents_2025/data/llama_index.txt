@@ -1,0 +1,12 @@
+LlamaIndex in short
+
+LlamaIndex builds a searchable index over your own documents and answers
+questions about them.
+
+The package to import is llama_index.core. It provides SimpleDirectoryReader
+for reading files from a folder, and VectorStoreIndex for turning them into
+embeddings you can query.
+
+A minimal pipeline has three steps: load the documents, build the index, then
+ask the query engine a question. The index is kept in memory, so every run
+rebuilds it from scratch.

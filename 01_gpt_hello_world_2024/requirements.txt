@@ -1,0 +1,3 @@
+# Versions as originally used in November 2024.
+# Newer openai releases (1.x) still run these scripts unchanged.
+openai==1.54.4
