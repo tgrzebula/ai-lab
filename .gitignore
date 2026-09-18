@@ -6,6 +6,11 @@ __pycache__/
 .ruff_cache/
 .mypy_cache/
 
+# Generated databases (experiments rebuild these on every run)
+*.db
+*.sqlite
+*.sqlite3
+
 # Virtual environments
 .venv/
 venv/
