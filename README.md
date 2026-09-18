@@ -13,4 +13,6 @@ learning.
 
 Experiments 02 and 03 answer the same question — *the square root of the population of
 the country that won the 2023 Rugby World Cup* — across three generations of API, which
-is the easiest way to see what actually changed.
+is the easiest way to see what actually changed. Experiment 04 runs on a fourth,
+`langchain.agents.create_agent`, but asks a different question, so it is not a direct
+comparison.
