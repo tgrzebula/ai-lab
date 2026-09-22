@@ -16,3 +16,12 @@ the country that won the 2023 Rugby World Cup* — across three generations of A
 is the easiest way to see what actually changed. Experiment 04 runs on a fourth,
 `langchain.agents.create_agent`, but asks a different question, so it is not a direct
 comparison.
+
+## Trainings
+
+Courses I've completed. The exercise code stays in a private repo, since it isn't mine
+to publish — this is just a record of what each one covered.
+
+| Training | What it covered |
+|----------|------------------|
+| [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol/296694) — Anthropic (Skilljar) | Building an MCP client and server, wiring them into a CLI chat app |
