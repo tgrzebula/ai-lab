@@ -10,6 +10,7 @@ learning.
 | 02 | [RAG and first agents (2025)](02_rag_and_first_agents_2025/) | A minimal RAG pipeline, and the same ReAct agent on two generations of the LangChain API | LlamaIndex, LangChain |
 | 03 | [LangGraph agents (2025)](03_langgraph_agents_2025/) | The agent from 02 rebuilt on LangGraph | LangGraph |
 | 04 | [SQL agent (2026)](04_sql_agent_2026/) | An agent that answers questions about a mock ERP database by writing its own SQL | LangChain `create_agent`, Groq, SQLite |
+| 05 | [MCP intro (2026)](05_mcp_intro_2026/) | My part of the Anthropic MCP course exercises: a document server and client methods | Python, `mcp` |
 
 Experiments 02 and 03 answer the same question — *the square root of the population of
 the country that won the 2023 Rugby World Cup* — across three generations of API, which
@@ -19,8 +20,8 @@ comparison.
 
 ## Trainings
 
-Courses I've completed. The exercise code stays in a private repo, since it isn't mine
-to publish — this is just a record of what each one covered.
+Courses I've completed. The course skeletons aren't mine to publish, so only the parts
+I wrote appear here (see 05); the full projects stay in a private repo.
 
 | Training | What it covered |
 |----------|------------------|
