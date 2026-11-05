@@ -7,7 +7,7 @@ An LLM agent that answers questions about a database by writing and running its 
 figures out the SQL.
 
 `sql_agent_minimal.py` is the same agent with the scenery taken away — one table, one
-question, no loop — so the four lines that actually build it are visible at a glance.
+question, no loop — so the three lines that actually build it are visible at a glance.
 
 | Script | What it is |
 |--------|------------|

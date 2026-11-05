@@ -34,8 +34,9 @@ with sqlite3.connect(DB_FILE) as conn:
         ("RetailPlus", 850.00, "Pending"),
     ])
 
-# --- the agent -----------------------------------------------------------
 db = SQLDatabase.from_uri(f"sqlite:///{DB_FILE}")
+
+# --- the agent -----------------------------------------------------------
 llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0)
 tools = SQLDatabaseToolkit(db=db, llm=llm).get_tools()
 agent = create_agent(llm, tools, system_prompt="Answer the question by querying the database. SELECT only.")
