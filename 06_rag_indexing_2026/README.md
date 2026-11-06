@@ -38,6 +38,3 @@ Node ids are random and change every run; the vectors and scores stay the same.
 - The search compares vectors, not words. *"my code stopped with an error"* shares no
   word with the Python sentence and still ranks it first (0.402 vs 0.011 and -0.136).
 
-Each run takes ~30 s, almost all of it importing torch and loading the model. If it hangs
-before printing anything, it is the online check for model updates; once the model is
-downloaded, `HF_HUB_OFFLINE=1` skips it.
