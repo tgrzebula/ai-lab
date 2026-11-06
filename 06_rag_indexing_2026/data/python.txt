@@ -1,7 +1,0 @@
-Getting started with Python.
-
-Python is a programming language known for readable code. A list stores items in order, a dictionary maps keys to values. Indentation defines blocks, so there are no curly braces.
-
-When a program crashes, read the traceback from the bottom up: the last line names the exception, the lines above show where it happened. Add print statements or use a debugger to inspect variables.
-
-Unlike Java, Python does not require you to declare the type of a variable.
