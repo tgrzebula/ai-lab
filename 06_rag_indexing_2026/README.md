@@ -4,16 +4,20 @@ The smallest possible look at what a LlamaIndex vector index stores. No LLM, no 
 only the retrieval half of RAG, with a local embedding model
 (`paraphrase-multilingual-MiniLM-L12-v2`, downloaded on first run, ~470 MB).
 
-`inspect_index.py` indexes three sentences, prints the vector stored for each, then
-ranks them against one question.
+| Script | What it is |
+|--------|------------|
+| `inspect_index_minimal.py` | Indexes three sentences, prints the vector stored for each, ranks them against one fixed question. Start here |
+| `inspect_index.py` | The same index, asked in a loop: the model and sentences load once, each question embeds only itself |
 
 ```bash
 pip install -r requirements.txt
-python inspect_index.py                       # default question
-python inspect_index.py "how do I make coffee"  # your own
+python inspect_index_minimal.py
+python inspect_index.py         # type questions, empty line to quit
 ```
 
 ## Result
+
+Output of `inspect_index_minimal.py`:
 
 ```
 1c22683c  384 numbers  [-0.062, -0.038, 0.107] ...
