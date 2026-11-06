@@ -11,6 +11,7 @@ learning.
 | 03 | [LangGraph agents (2025)](03_langgraph_agents_2025/) | The agent from 02 rebuilt on LangGraph | LangGraph |
 | 04 | [SQL agent (2026)](04_sql_agent_2026/) | An agent that answers questions about a mock ERP database by writing its own SQL | LangChain `create_agent`, Groq, SQLite |
 | 05 | [MCP intro (2026)](05_mcp_intro_2026/) | My part of the Anthropic MCP course exercises: a document server and client methods | Python, `mcp` |
+| 06 | [RAG indexing (2026)](06_rag_indexing_2026/) | What a vector index really stores and how a question finds a chunk, step by step | LlamaIndex, local embeddings |
 
 Experiments 02 and 03 answer the same question — *the square root of the population of
 the country that won the 2023 Rugby World Cup* — across three generations of API, which
