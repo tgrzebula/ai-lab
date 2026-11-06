@@ -1,4 +1,10 @@
-"""The smallest possible vector index: three sentences, one question."""
+"""The smallest possible vector index: three sentences, one question.
+
+    python inspect_index.py                    # default question
+    python inspect_index.py "your question"
+"""
+
+import sys
 
 from llama_index.core import Document, Settings, VectorStoreIndex
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
@@ -17,7 +23,7 @@ index = VectorStoreIndex([Document(text=t) for t in texts])
 for node_id, vector in index.vector_store.data.embedding_dict.items():
     print(f"{node_id[:8]}  {len(vector)} numbers  {[round(x, 3) for x in vector[:3]]} ...")
 
-question = "my code stopped with an error"
+question = sys.argv[1] if len(sys.argv) > 1 else "my code stopped with an error"
 print(f"\nQuestion: {question}")
 for hit in index.as_retriever(similarity_top_k=3).retrieve(question):
     print(f"{hit.score:.3f}  {hit.node.text}")

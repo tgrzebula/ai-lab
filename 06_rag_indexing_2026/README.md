@@ -9,7 +9,8 @@ ranks them against one question.
 
 ```bash
 pip install -r requirements.txt
-python inspect_index.py
+python inspect_index.py                       # default question
+python inspect_index.py "how do I make coffee"  # your own
 ```
 
 ## Result
