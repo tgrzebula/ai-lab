@@ -8,7 +8,7 @@ Settings.embed_model = HuggingFaceEmbedding("sentence-transformers/paraphrase-mu
 
 # Each Document is short enough to stay one chunk, so: 3 texts -> 3 vectors.
 texts = [
-    "To repair a puncture, take out the inner tube and glue a patch on it.",
+    "Dogs need a long walk every day.",
     "Espresso is made by pressing hot water through finely ground coffee.",
     "When a Python program crashes, read the traceback from the bottom up.",
 ]
