@@ -8,8 +8,12 @@ key: only the retrieval half of RAG, with a local embedding model
 embeds each chunk into one 384-number vector, saves the index to `storage/` and ranks
 every chunk against a few questions, next to the words each question shares with it.
 
+`inspect_index_minimal.py` is the same idea in 20 lines: three sentences, three vectors,
+one question. Start there.
+
 ```bash
 pip install -r requirements.txt
+python inspect_index_minimal.py
 python inspect_index.py
 python inspect_index.py "your own question"
 ```
