@@ -13,11 +13,6 @@ learning.
 | 05 | [MCP intro (2026)](05_mcp_intro_2026/) | My part of the Anthropic MCP course exercises: a document server and client methods | Python, `mcp` |
 | 06 | [RAG indexing (2026)](06_rag_indexing_2026/) | What a vector index really stores: three sentences, three vectors, one question | LlamaIndex, local embeddings |
 
-Experiments 02 and 03 answer the same question — *the square root of the population of
-the country that won the 2023 Rugby World Cup* — across three generations of API, which
-is the easiest way to see what actually changed. Experiment 04 runs on a fourth,
-`langchain.agents.create_agent`, but asks a different question, so it is not a direct
-comparison.
 
 ## Trainings
 
