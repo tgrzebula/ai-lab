@@ -12,6 +12,7 @@ learning.
 | 04 | [SQL agent (2026)](04_sql_agent_2026/) | An agent that answers questions about a mock ERP database by writing its own SQL | LangChain `create_agent`, Groq, SQLite |
 | 05 | [MCP intro (2026)](05_mcp_intro_2026/) | My part of the Anthropic MCP course exercises: a document server and client methods | Python, `mcp` |
 | 06 | [RAG indexing (2026)](06_rag_indexing_2026/) | What a vector index really stores: three sentences, three vectors, one question | LlamaIndex, local embeddings |
+| 07 | [Mini Claude Code (2026)](07_mini_claude_code_2026/) | A coding agent in one small file: three tools, a system prompt, a loop, tool calls parsed by hand | Python, `anthropic` |
 
 
 ## Trainings
