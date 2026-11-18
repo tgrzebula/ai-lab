@@ -14,7 +14,6 @@ learning.
 | 06 | [RAG indexing (2026)](06_rag_indexing_2026/) | What a vector index really stores: three sentences, three vectors, one question | LlamaIndex, local embeddings |
 | 07 | [Mini Claude Code (2026)](07_mini_claude_code_2026/) | A coding agent in one small file: three tools, a system prompt, a loop, tool calls parsed by hand | Python, `anthropic` |
 
-
 ## Trainings
 
 Courses I've completed. The course skeletons aren't mine to publish, so only the parts
